@@ -1,0 +1,16 @@
+Pratica Laboratório 3 
+
+João Pedro Samarino
+Pedro Henrique Leão Braga
+
+Para Rodar o Codigo entre em solution.m e modifique as variavies da seguinte maneira:
+
+x = normrnd(0,3,30,2); -> referente a inicialização , os ultimos dois valores são referentes consecutivamente a qt de individuos da pop e cordenadas do problema
+
+F = 0.3; -> tamanho do fator q multiplica do vetor de diferenças
+
+c = 0.2;-> porecentagem de multação na população
+
+precisao = 1e-12; -> precisão para a convergencia , comparada usando variancia 
+
+Obs: O codigo resolve os dois problemas consecutivamente , foi retirado o plot interativo para uma execução rapida e facilitar a correção.
